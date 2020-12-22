@@ -1,6 +1,7 @@
 package main
 
+import "blockchain_go/common"
 func main() {
-	cli := CLI{}
+	cli := new (common.CLI)
 	cli.Run()
 }
